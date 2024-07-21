@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="mian flex bg-black">
+        <div class="left border">
+            <div class="home bg-gray rounded m-1 p-1">
+                <img class="close" src="img/close.svg" alt="">
+                <img src="img/logo.svg" class="invert" style="height:2.3rem;    " alt="">
+                <ul>
+                    <li><img class="invert" src="img/home.svg" alt="home">Home</li>
+                    <li style=" padding-top: 0.25rem;"><img class="invert" src="img/search.svg" alt="home">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-gray rounded m-1 p-1library">
+                <div class="playlist">
+                    <img src="img/libraray.svg" class="invert" style="height:1.3rem;" alt="libraray">
+                    <h4>Your Library</h4>
+                </div>
+                <div class="songlist">
+                    <ul>
+                       
+                        
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right border">
+            <div class="header bg-gray rounded p-1">
+                <div class="nav">
+                    <img class="hamburger" src="img/hamburger.svg" alt="">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="button">
+                    <button class="signup">Sign up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </div>
+            <div class="right-main bg-gray">
+                <div class="spotifyPlayllist">
+                    <h2>Spotify Playlists</h2>
+                        <div class="card-container">
+                            <!-- <div data-folder="folder1" class="card ">
+                                <img src="https://i.scdn.co/image/ab67706f000000028aa213d23c60645e2649a350" alt="">
+                                <div class="play-icon"> <img src="play1.svg" alt="play icon"></div>
+                                <h3>Mega Hit Mix</h3>
+                                <p>A mega mix of 75 favorites from the last few years!</p>
+                            </div>
+                            <div data-folder="folder2" class="card ">
+                                <img src="https://i.scdn.co/image/ab67706f000000028aa213d23c60645e2649a350" alt="">
+                                <h3>Mega Hit Mix</h3>
+                                <p>A mega mix of 75 favorites from the last few years!</p>
+                            </div>
+                            
+                            </div> -->
+                        </div>
+                </div>
+                <div class="playbar">
+                    <div class="abovebar">
+                        <div class="songInfo">
+                        </div>
+                        <div class="playControls">
+                            <img width="35px" id="previous" src="img/previous.svg" alt="">
+                            <img width="35px" id="play" src="img/playbar play.svg" alt="">
+                            <img width="35px" id="next" src="img/next.svg" alt="">
+                            
+                        </div>
+                        <div class="musicAndTime">
+                            <div class="songTime"></div>
+                            <div class="volume">
+                                <img src="img/volume.svg" alt="">
+                                <input name="volume" type="range">
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="seekbar">
+                        <div class="circle">
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="GOcsybnoHYyJGQGDRuwj" style="background-image: url(&quot;https://i.scdn.co/image/ab67706f000000028aa213d23c60645e2649a350&quot;); --card-color: #6D797E;"><div><img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f000000028aa213d23c60645e2649a350" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"></div></div> -->
